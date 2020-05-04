@@ -12,8 +12,8 @@ div {
 }
 
 #marshal {  
-	width: 120%;
-	height: 28vh;
+	width: 100%;
+	height: 22vh;
   border: none;
 	background-image: url('https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-top-bar.png');
 	background-size: cover;
