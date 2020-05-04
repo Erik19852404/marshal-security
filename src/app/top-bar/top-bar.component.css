@@ -34,7 +34,7 @@
   background-repeat:no-repeat;
   background-size: 100% 100%;
   float: left;
-  animation: moving 6s linear infinite;
+  opacity: 0.2;
 }
 
 #label {
@@ -44,7 +44,6 @@
   margin-top: -50px;
   margin-left: -50px;
   border: none;
-  opacity: 1;
   max-width: 30vh;
   min-width: 15vh;
   max-height: 30vh;
@@ -52,7 +51,7 @@
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-label.png");
   background-size: 100% 100%;
   float: left;
-  animation: moving 3s linear infinite;
+  opacity: 0.2;
 }
 
 #flag {
@@ -71,5 +70,12 @@
   background-repeat:no-repeat;
   background-size: 100% 100%;
   float: left;
-  animation: moving 6s linear infinite;
+  opacity: 0.2;
+  //animation: moving 6s linear infinite;
+}
+
+h2, h3 {
+  margin: 0vh 1vh 1vh 1vh;
+  padding: 2vh 1vh 0 2vh;
+  opacity: 1;
 }

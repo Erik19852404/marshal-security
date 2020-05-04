@@ -3,5 +3,9 @@ div {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 0 10% 0 10%;
-  padding: 5vh 1vh 0 1v;
+  padding: 5vh 1vh 0 1vh;
+}
+
+p, li, ul {
+  padding: 1px 1vh 0px 2vh;
 }

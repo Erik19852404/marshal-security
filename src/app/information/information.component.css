@@ -25,3 +25,11 @@ li {
 #share:hover {
   opacity: 0.5;
 }
+
+#div-information {
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-backand.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0 10% 0 10%;
+  padding: 8vh 1vh 5vh 1vh;
+}
