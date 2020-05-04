@@ -1,9 +1,9 @@
 div {
   display: flex;
-  background-color: #3f8cf0;
+  background-color: #080808;
   background-size: 100% 100%;
   border: 0.3vh solid transparent;
-  border-color: rgb(138, 188, 229);
+  border-color: rgb(129, 19, 19);
   border-radius: 0;
 }
 
@@ -13,9 +13,9 @@ div {
 
 #marshal {  
 	width: 120%;
-	height: 17vh;
+	height: 28vh;
   border: none;
-	background-image: url('https://cdn.jsdelivr.net/gh/Erik19852404/zya@master/src/assets/images/sky-long2.png');
+	background-image: url('https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-top-bar.png');
 	background-size: cover;
   background-repeat:repeat;
   padding: 1vh;
@@ -23,25 +23,11 @@ div {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;  
-	animation: movingclouds 60s linear infinite;
-}
-
-#text {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  justify-content: center;
-  position: absolete;
-  animation: movingtext 60s linear infinite;
+	//animation: movingclouds 60s linear infinite;
 }
 
 @keyframes movingclouds {
 	0% {margin: 0 -20% 0 0;}
 	50% {margin: 0 0 0 -20%;}
 	100% {margin: 0 -20% 0 0;}
-}
-
-@keyframes movingtext {
-	0% {margin: 0 20% 0 0;}
-	50% {margin: 0 0 0 20%;}
-	100% {margin: 0 20% 0 0;}
 }
