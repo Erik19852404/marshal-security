@@ -3,6 +3,7 @@
   opacity: 0.8;
 	height: 20vh;
   background-size: 100% 100%;
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-top-bar_new1.png);
   flex-direction: row;
   align-items: center;  
   background-color: #030303;
