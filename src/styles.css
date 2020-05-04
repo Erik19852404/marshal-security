@@ -40,7 +40,8 @@ label {
   display: inline-block;
   padding: 1vh 2vh 1vh 2vh;
   font-size: 1.6vh; 
-  color: #eff1f1; 
+  font-weight: bold;
+  color: #fd0000; 
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/black-web-button-png-3.png");
   background-repeat:no-repeat;
   background-size: 100% 100%;
@@ -54,7 +55,7 @@ label {
   cursor: pointer;
   max-height: 9vh;
   min-height: 2vh;
-  text-shadow: 2px 2px 4px #960b0b; 
+  text-shadow: 1px 1px 2px #f0ee94; 
 }
 
 .button:hover, button:hover {
@@ -124,7 +125,7 @@ a:hover {
 
 div {
   background-color: black;
-  opacity: 0.9;  
+  opacity: 0.8;  
   border: 0.1vh solid transparent;
   border-color: rgb(134, 10, 10);
   border-radius: 5%;
