@@ -29,5 +29,23 @@ div {
 #gerb {
   max-width: 10vh;
   min-width: 5vh;
-  background-image: url("");
+  max-height: 10vh;
+  min-height: 5vh;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/gerb.jpg");
+}
+
+#label {
+  max-width: 10vh;
+  min-width: 5vh;
+  max-height: 10vh;
+  min-height: 5vh;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/gerb.jpg");
+}
+
+#flag {
+  max-width: 10vh;
+  min-width: 5vh;
+  max-height: 10vh;
+  min-height: 5vh;
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/gerb.jpg");
 }
