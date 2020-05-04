@@ -41,13 +41,12 @@ label {
   padding: 1vh 2vh 1vh 2vh;
   font-size: 1.6vh; 
   color: #eff1f1; 
-  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/black-web-button-png-2.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/black-web-button-png-3.png");
   background-repeat:no-repeat;
   background-size: 100% 100%;
   border-radius: 9px;
   font-family: 'Julius Sans One', sans-serif; 
   margin: 0 0 24px; 
-  text-shadow: 1px 1px 1px #4da4b9;
   line-height: 10px; 
   text-align: center;
   vertical-align: middle;
@@ -55,6 +54,7 @@ label {
   cursor: pointer;
   max-height: 9vh;
   min-height: 2vh;
+  text-shadow: 2px 2px 4px #960b0b; 
 }
 
 .button:hover, button:hover {
@@ -72,11 +72,11 @@ app-top-bar {
 
 h1 { 
   font-size: 4vh;
-  color: rgb(228, 236, 241); 
+  color: rgb(255, 255, 255); 
   font-family: 'Rouge Script', cursive; 
   font-weight: normal; 
   text-align: center; 
-  text-shadow: 2px 2px 4px #0b7c96; 
+  text-shadow: 2px 2px 4px #960b0b; 
 }
 
 h2 {
@@ -92,19 +92,20 @@ h1, h2 {
 }
 
 h2, h3 { 
-  color: rgb(0, 82, 121); 
+  color: rgb(255, 255, 255); 
   font-family: 'Julius Sans One', sans-serif; 
   font-weight: bold;  
-  text-shadow: 1px 1px 1px #f5dd9c; 
+  text-shadow: 1px 1px 1px #9e0000; 
 }
 
 p, li { 
-  color: rgb(0, 82, 121); 
+  color: rgb(255, 255, 255); 
   font-family: 'Carme', sans-serif; 
   line-height: 3vh; 
   margin: 0 0 0px; 
   font-size: 1.52vh;
   font-weight: bold;
+  text-shadow: 2px 2px 4px #960b0b; 
 }
 
 a { 

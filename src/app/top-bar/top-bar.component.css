@@ -13,15 +13,9 @@ div {
 
 #marshal {  
 	width: 100%;
-	height: 22vh;
+	height: 17vh;
   border: none;
-	background-image: url('https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-top-bar2.png');
-
-  background-repeat:repeat;
-  padding: 1vh;
-  opacity: 1;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;  
 	//animation: movingclouds 60s linear infinite;
 }
@@ -30,4 +24,10 @@ div {
 	0% {margin: 0 -20% 0 0;}
 	50% {margin: 0 0 0 -20%;}
 	100% {margin: 0 -20% 0 0;}
+}
+
+#gerb {
+  max-width: 10vh;
+  min-width: 5vh;
+  background-image: url("");
 }
