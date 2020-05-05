@@ -1,20 +1,14 @@
 #map {
-  max-width: 30%;
+  max-width: 50vh;
   min-width: 25vh;
-  padding: 0 0 0 0;  
-  overflow: hidden;
-  opacity: 0.9;  
-  border: 0.1vh solid transparent;
-  border-color: rgb(185, 12, 0);
-  border-radius: 5%;
+  padding: 0;  
+  overflow: auto;
+  opacity: 1;  
   margin: 1vh 1vh 0 1vh; 
-  background-image: url();
-  background-size: cover;
+  background: none;
+  border: none;
 }
 
 img {
   width: 100%;  
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
