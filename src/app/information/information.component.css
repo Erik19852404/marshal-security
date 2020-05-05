@@ -1,5 +1,7 @@
 h2 {
   margin: 4px;
+  color: red;
+  text-shadow: 2px 2px 2px #f7f7f7; 
 }
 
 ul{
@@ -27,9 +29,9 @@ li {
 }
 
 #div-information {
-  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-backand2.jpg);
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-backand3.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 0 10% 0 10%;
-  padding: 8vh 1vh 5vh 1vh;
+  padding: 1vh 1vh 5vh 1vh;
 }
