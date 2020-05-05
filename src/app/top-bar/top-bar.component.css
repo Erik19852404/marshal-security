@@ -16,16 +16,22 @@
 @keyframes moving {
 	0% {
     color: rgb(173, 6, 6);   
-    text-shadow: 2px 1px 2vh rgb(240, 119, 119); 
+    text-shadow: 2px 1px 2vh rgb(231, 78, 78); 
   }
 	50%  {
-    color: rgb(240, 119, 119);
+    color: rgb(231, 78, 78);
     text-shadow: 2px 1px 3vh rgb(173, 6, 6);
   }
 	100%  {
     color: rgb(173, 6, 6);
     text-shadow: 2px 1px 2vh rgb(240, 119, 119);
   }
+}
+
+#name {
+  background: black;
+  opacity: 1;
+  border:none;
 }
 
 #gerb {
@@ -58,7 +64,7 @@
   margin: 0% 0% 0% 0%; 
   background-size: 100% 100%;
   float: left;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 #flag {
