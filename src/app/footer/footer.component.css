@@ -3,9 +3,9 @@
   margin: 0;
   width: 100%;
   overflow: hidden;
-  position: absolute;
   top: 97%;
   bottom: 0; 
+  position: fixed;
 }
 
 p{
