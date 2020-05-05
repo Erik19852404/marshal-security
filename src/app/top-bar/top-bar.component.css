@@ -1,7 +1,7 @@
 #marshal {  
   position: relative;
   opacity: 0.8;
-	height: 20vh;
+	height: 23vh;
   background-size: 100% 100%;
   background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-top-bar_new4.png);
   flex-direction: row;
@@ -10,72 +10,102 @@
   border: none;
   max-width: 100%;
   margin: 0 0 0 0;
+  padding: 0 0 3vh 0;
 }
 
 @keyframes moving {
-	0% {opacity: 1;}
-	50% {opacity: 0.5;}
-	100% {opacity: 1;}
+	0% {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin: 0% 0% 0% 0%; 
+    max-width: 30vh;
+    min-width: 15vh;
+    max-height: 30vh;
+    min-height: 15vh;
+  }
+	50%  {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    margin: 0% 0% 0% 0%; 
+    max-width: 32vh;
+    min-width: 16vh;
+    max-height: 32vh;
+    min-height: 16vh;
+  }
+	100%  {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    margin: 0% 0% 0% 0%; 
+    max-width: 30vh;
+    min-width: 15vh;
+    max-height: 30vh;
+    min-height: 15vh;
+  }
 }
 
 #gerb {
+  z-index: 1;
   position: absolute;
   border: none;
   top: 5%;
   left: 5%;
-  margin-top: -50px;
-  margin-left: -50px;
-  max-width: 16vh;
-  min-width: 8vh;
-  max-height: 16vh;
-  min-height: 8vh;
+  max-width: 204vh;
+  min-width: 10vh;
+  max-height: 20vh;
+  min-height: 10vh;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/gerb.jpg");  
   margin: 0% 0% 0% 0%; 
   background-repeat:no-repeat;
   background-size: 100% 100%;
   float: left;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 #label {
+  z-index: 1;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
+  top: 25%;
+  left: 40%;
   border: none;
   max-width: 30vh;
   min-width: 15vh;
   max-height: 30vh;
   min-height: 15vh;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/marshal-label.png");
+  margin: 0% 0% 0% 0%; 
   background-size: 100% 100%;
   float: left;
   opacity: 0.2;
+  animation: moving 2s linear infinite;
 }
 
 #flag {
+  z-index: 1;
   position: absolute;
   border: none;  
   top: 5%;
   right: 5%;
-  margin-top: -50px;
-  margin-left: -50px;
-  max-width: 16vh;
-  min-width: 8vh;
-  max-height: 12vh;
-  min-height: 5vh;
+  max-width: 24vh;
+  min-width: 12vh;
+  max-height: 18vh;
+  min-height: 8vh;
   background-image: url("https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/flag.jpg");
   margin: 0% 0% 0% 0%;  
   background-repeat:no-repeat;
   background-size: 100% 100%;
   float: left;
-  opacity: 0.2;
-  //animation: moving 6s linear infinite;
+  opacity: 0.4;
 }
 
-h2, h3 {
+h1 {
+  z-index: 2;
   margin: 0vh 1vh 1vh 1vh;
-  padding: 2vh 1vh 0 2vh;
+  padding: 3vh 1vh 2vh 2vh;
   opacity: 1;
+  font-size: 5vh;
+  color: rgb(226, 0, 0);
+  text-shadow: 2px 1px 1px #ffffff;
 }

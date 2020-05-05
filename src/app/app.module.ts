@@ -9,11 +9,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MenuComponent } from './menu/menu.component';
 import { InformationComponent } from './information/information.component';
 import { FooterComponent } from './footer/footer.component';
-import { OurTeamComponent } from './our-team/our-team.component';
-import { DetailesComponent } from './detailes/detailes.component';
 import { ContactsComponent } from './contacts/contacts.component';
 import { SevicesComponent } from './sevices/sevices.component';
-import { LicensesComponent } from './licenses/licenses.component';
 import { BtnMgmtService } from './btn-mgmt.service';
 
 @NgModule({
@@ -24,13 +21,11 @@ import { BtnMgmtService } from './btn-mgmt.service';
   RouterModule.forRoot(
     [
       { path:"", component: InformationComponent },
-      { path:"detailes", component: DetailesComponent },
-      { path:"licenses", component: LicensesComponent },
       { path:"contacts", component: ContactsComponent },
       { path:"services", component: SevicesComponent },
     ]
   ), ],
-  declarations: [ AppComponent, TopBarComponent, MenuComponent, InformationComponent, FooterComponent, OurTeamComponent, DetailesComponent, ContactsComponent, SevicesComponent, LicensesComponent ],
+  declarations: [ AppComponent, TopBarComponent, MenuComponent, InformationComponent, FooterComponent,   ContactsComponent, SevicesComponent],
   bootstrap:    [ AppComponent ],
   providers: [BtnMgmtService],
 })
