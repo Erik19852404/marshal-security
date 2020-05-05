@@ -1,13 +1,22 @@
 #map {
-  height: 33vh;
   padding: 0 0 0 0;  
-  max-width: 47.2%;  
+  max-width: 35vh;  
+  max-height: 35vh;
   overflow: hidden;
   opacity: 0.9;  
   border: 0.1vh solid transparent;
-  border-color: rgb(138, 188, 229);
+  border-color: rgb(185, 12, 0);
   border-radius: 5%;
   margin: 1vh 1vh 0 1vh; 
-  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/map.png);
+  background-image: url();
   background-size: 100% 100%
+}
+
+img {
+  min-width: 40vh;
+  min-height: 40vh;
+  max-width: 50%;
+  max-height: 50%;
+  margin: 0;
+  padding: 0;
 }
