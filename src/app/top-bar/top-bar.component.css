@@ -15,35 +15,16 @@
 
 @keyframes moving {
 	0% {
-    position: absolute;
-    top: 25%;
-    left: 40%;
-    margin: 0% 0% 0% 0%; 
-    max-width: 30vh;
-    min-width: 15vh;
-    max-height: 30vh;
-    min-height: 15vh;
+    color: rgb(173, 6, 6);   
+    text-shadow: 2px 1px 2vh rgb(240, 119, 119); 
   }
 	50%  {
-    position: absolute;
-    top: 22%;
-    left: 40%;
-    margin: 0% 0% 0% 0%; 
-    max-width: 32vh;
-    min-width: 16vh;
-    max-height: 32vh;
-    min-height: 16vh;
-    opacity: 0.5;
+    color: rgb(240, 119, 119);
+    text-shadow: 2px 1px 3vh rgb(173, 6, 6);
   }
 	100%  {
-    position: absolute;
-    top: 25%;
-    left: 40%;
-    margin: 0% 0% 0% 0%; 
-    max-width: 30vh;
-    min-width: 15vh;
-    max-height: 30vh;
-    min-height: 15vh;
+    color: rgb(173, 6, 6);
+    text-shadow: 2px 1px 2vh rgb(240, 119, 119);
   }
 }
 
@@ -104,6 +85,6 @@ h1 {
   padding: 3vh 1vh 2vh 2vh;
   opacity: 1;
   font-size: 5vh;
-  color: rgb(226, 0, 0);
-  text-shadow: 2px 1px 1px #ffffff;
+  color: rgb(173, 6, 6);
+  animation: moving 3s ease-in-out infinite;
 }
