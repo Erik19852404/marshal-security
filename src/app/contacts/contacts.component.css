@@ -1,5 +1,5 @@
 #map {
-  height: 50vh;
+  height: 33vh;
   padding: 0 0 0 0;  
   max-width: 47.2%;  
   overflow: hidden;
@@ -8,4 +8,6 @@
   border-color: rgb(138, 188, 229);
   border-radius: 5%;
   margin: 1vh 1vh 0 1vh; 
+  background-image: url(https://cdn.jsdelivr.net/gh/Erik19852404/marshal-security@master/src/assets/images/map.png);
+  background-size: 100% 100%
 }
